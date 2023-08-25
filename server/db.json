@@ -1,3 +1,52 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": 1692966280513,
+      "login": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 1692966411746,
+      "login": "admin2",
+      "password": "admin2"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1692966280513,
+      "name": "admin",
+      "columns": [
+        {
+          "columnId": 1692966313545,
+          "columnName": "Column 1",
+          "tasks": [
+            {
+              "taskId": 1692966320029,
+              "taskName": "task 1"
+            },
+            {
+              "taskId": 1692966326027,
+              "taskName": "task 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1692966411746,
+      "name": "admin2",
+      "columns": [
+        {
+          "columnId": 1692966442587,
+          "columnName": "Column admin 2",
+          "tasks": [
+            {
+              "taskId": 1692966450811,
+              "taskName": "task"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

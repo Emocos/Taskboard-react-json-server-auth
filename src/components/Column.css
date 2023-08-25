@@ -1,0 +1,44 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: max-content;
+    background-color: #fff;
+    gap: 15px;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #135693;
+}
+
+.task_elem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 25px;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.task_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task_form input {
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #818181;
+    border-radius: 5px;
+}

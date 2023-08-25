@@ -1,0 +1,87 @@
+.dashboard {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 45px;
+    background-color: #464646;
+    color: #fafafa;
+}
+
+.crtBtn {
+    width: 250px;
+    height: 35px;
+    background-color: #dedede;
+    border: none;
+    cursor: pointer;
+    color: #135693;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h2:first-letter {
+    text-transform: uppercase;
+}
+
+section {
+    padding: 15px 45px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.dfBtn {
+    padding: 0 45px;
+    height: 35px;
+    background-color: #dedede;
+    border: none;
+    cursor: pointer;
+    color: #135693;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.editBtn {
+    position: absolute;
+    right: 45px;
+}
+
+.columns {
+    display: flex;
+    gap: 15px;
+}
+
+.new_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.new_column h2 {
+    color: #135693;
+}
+
+.new_column_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.new_column_form input {
+    width: 250px;
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #818181;
+    border-radius: 5px;
+}
